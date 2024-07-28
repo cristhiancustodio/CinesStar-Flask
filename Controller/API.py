@@ -27,6 +27,7 @@ class API:
     @api_blue.route("/lista-palabras")
     def lista_palabras():
         return "prueba1"
+        return "pastel1"
         return API.listaPalabrasClaves()
     
     @api_blue.route("/API/", methods=['POST'])
