@@ -26,7 +26,6 @@ class API:
     #def listarRutas(self):
     @api_blue.route("/lista-palabras")
     def lista_palabras():
-        return "comentario de laptop"
         return API.listaPalabrasClaves()
     
     @api_blue.route("/API/", methods=['POST'])
