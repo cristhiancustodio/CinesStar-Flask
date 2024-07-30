@@ -4,3 +4,4 @@ Controller/*.pyc
 venv
 *.pyc
 .vercel
+node_modules
